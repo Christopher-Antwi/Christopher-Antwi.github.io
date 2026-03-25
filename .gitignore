@@ -5,3 +5,5 @@ desktop.ini
 *.Rproj
 .Rhistory
 .RData
+
+**/*.quarto_ipynb
