@@ -1,0 +1,83 @@
+/* Additional layout overrides */
+
+/* Remove default Quarto page padding on hero */
+.hero .container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* Ensure full width hero */
+#quarto-content > * {
+  padding-top: 0 !important;
+}
+
+.quarto-title {
+  display: none;
+}
+
+/* Smooth hover on nav links */
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255,255,255,0.08);
+}
+
+/* Card tag fix — Quarto sometimes strips spans */
+.card-tag {
+  display: inline-block;
+  background: rgba(254,225,35,0.2);
+  color: #154733;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  margin-right: 0.4rem;
+  margin-bottom: 0.8rem;
+  border: 1px solid rgba(21,71,51,0.15);
+}
+
+/* Page content spacing */
+.page-content h2:not(:first-child) {
+  margin-top: 3rem;
+}
+
+/* Research item link */
+.research-item .btn-uo-outline {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  padding: 0.4rem 1rem;
+}
+
+/* Footer */
+.nav-footer a {
+  color: rgba(255,255,255,0.5) !important;
+  transition: color 0.2s ease;
+}
+
+.nav-footer a:hover {
+  color: #FEE123 !important;
+}
+
+/* Mobile responsive hero */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero {
+    padding: 4rem 1.5rem;
+  }
+
+  .cv-item {
+    flex-direction: column;
+    gap: 0.3rem !important;
+  }
+
+  .cv-year {
+    min-width: unset !important;
+  }
+}
