@@ -1,0 +1,78 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero}
+::: {.container}
+# Christopher Antwi
+
+::: {.hero-subtitle}
+PhD Researcher · University of Oregon · Operations Research & Analytics
+:::
+
+::: {.hero-bio}
+[Your bio goes here. Describe your research interests, background, and what drives your work.]
+:::
+
+<a href="research.qmd" class="btn-uo">View Research</a>
+<a href="cv.qmd" class="btn-uo-outline">Download CV</a>
+:::
+:::
+
+::: {.page-content}
+
+## About
+
+::: {.section-divider}
+:::
+
+[Write your about section here. Talk about your PhD program, research focus areas, prior background, and current affiliations.]
+
+---
+
+## Research Interests
+
+::: {.section-divider}
+:::
+
+- **Continuous Manufacturing** — interruption management, process control, quality analytics
+- **NIL Economics** — causal effects of Name, Image, and Likeness on college football operations
+- **Healthcare Operations** — [add as relevant]
+
+---
+
+## Affiliations
+
+::: {.section-divider}
+:::
+
+::: {.cv-section}
+::: {.cv-item}
+::: {.cv-year}
+2022 – Present
+:::
+::: {.cv-content}
+::: {.cv-role}
+PhD Student, Operations & Business Analytics
+:::
+::: {.cv-org}
+University of Oregon, Lundquist College of Business
+:::
+:::
+:::
+:::
+
+---
+
+## Contact
+
+::: {.section-divider}
+:::
+
+- **Email:** [your email]
+- **GitHub:** [github.com/Christopher-Antwi](https://github.com/Christopher-Antwi)
+- **LinkedIn:** [your LinkedIn]
+- **Office:** [your office location]
+
+:::

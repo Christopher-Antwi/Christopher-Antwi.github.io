@@ -1,0 +1,7 @@
+/.quarto/
+*_cache/
+.DS_Store
+desktop.ini
+*.Rproj
+.Rhistory
+.RData

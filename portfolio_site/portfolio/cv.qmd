@@ -1,0 +1,161 @@
+---
+title: "Curriculum Vitae"
+---
+
+::: {.page-content}
+
+## Curriculum Vitae
+
+::: {.section-divider}
+:::
+
+<a href="cv.pdf" class="btn-uo">Download PDF</a>
+
+---
+
+### Education
+
+::: {.cv-section}
+::: {.cv-item}
+::: {.cv-year}
+2022 – Present
+:::
+::: {.cv-content}
+::: {.cv-role}
+PhD, Operations & Business Analytics
+:::
+::: {.cv-org}
+University of Oregon, Lundquist College of Business
+:::
+::: {.cv-desc}
+Fields: Operations Management, Applied Econometrics, Business Analytics
+:::
+:::
+:::
+
+::: {.cv-item}
+::: {.cv-year}
+[Year]
+:::
+::: {.cv-content}
+::: {.cv-role}
+[Degree], [Field]
+:::
+::: {.cv-org}
+[Institution]
+:::
+:::
+:::
+:::
+
+---
+
+### Research Experience
+
+::: {.cv-section}
+::: {.cv-item}
+::: {.cv-year}
+2023 – Present
+:::
+::: {.cv-content}
+::: {.cv-role}
+Graduate Research Assistant
+:::
+::: {.cv-org}
+University of Oregon
+:::
+::: {.cv-desc}
+[Describe research responsibilities and projects]
+:::
+:::
+:::
+:::
+
+---
+
+### Teaching Experience
+
+::: {.cv-section}
+::: {.cv-item}
+::: {.cv-year}
+2023 – Present
+:::
+::: {.cv-content}
+::: {.cv-role}
+Teaching Assistant — OBA 311: Operations & Business Analytics
+:::
+::: {.cv-org}
+University of Oregon, Lundquist College of Business
+:::
+::: {.cv-desc}
+[Describe teaching responsibilities]
+:::
+:::
+:::
+:::
+
+---
+
+### Working Papers
+
+- **Antwi, C.** (2025). *Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing.* Working Paper, University of Oregon.
+
+- **Antwi, C.** (2025). *The Causal Effects of NIL Collectives on Play-Calling Behavior in College Football.* Working Paper, University of Oregon.
+
+---
+
+### Conference Presentations
+
+- [Conference], [Year] — "[Paper title]"
+
+---
+
+### Skills
+
+::: {.cv-section}
+::: {.cv-item}
+::: {.cv-year}
+Software
+:::
+::: {.cv-content}
+R · Python · SQL · Tableau · Excel · Quarto · Git
+:::
+:::
+
+::: {.cv-item}
+::: {.cv-year}
+Methods
+:::
+::: {.cv-content}
+Panel Data · Causal Inference · Time Series · Event Study · OLS · Fixed Effects · Logistic Regression · Discrete Event Simulation
+:::
+:::
+:::
+
+---
+
+### Awards & Fellowships
+
+::: {.cv-section}
+::: {.cv-item}
+::: {.cv-year}
+[Year]
+:::
+::: {.cv-content}
+::: {.cv-role}
+[Award name]
+:::
+::: {.cv-org}
+[Institution/Organization]
+:::
+:::
+:::
+:::
+
+---
+
+### References
+
+Available upon request.
+
+:::

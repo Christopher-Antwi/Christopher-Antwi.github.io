@@ -1,0 +1,274 @@
+/*-- UO Brand Colors --*/
+$uo-green:  #154733;
+$uo-yellow: #FEE123;
+$uo-green-light: #1a5a40;
+$uo-green-dark:  #0f3326;
+
+/*-- Font imports --*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+/*-- Navbar --*/
+.navbar {
+  background-color: $uo-green !important;
+  border-bottom: 3px solid $uo-yellow;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255,255,255,0.85) !important;
+  transition: color 0.2s ease;
+  &:hover {
+    color: $uo-yellow !important;
+  }
+}
+
+.navbar-nav .nav-link.active {
+  color: $uo-yellow !important;
+}
+
+/*-- Footer --*/
+.nav-footer {
+  background-color: $uo-green-dark;
+  color: rgba(255,255,255,0.6);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  border-top: 2px solid $uo-yellow;
+}
+
+/*-- Body --*/
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  color: #1a1a1a;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: $uo-green;
+}
+
+/*-- Section divider --*/
+.section-divider {
+  width: 60px;
+  height: 4px;
+  background: $uo-yellow;
+  margin: 1rem 0 2rem 0;
+  border-radius: 2px;
+}
+
+/*-- Hero section --*/
+.hero {
+  background: linear-gradient(135deg, $uo-green 0%, $uo-green-light 100%);
+  color: white;
+  padding: 6rem 2rem;
+  margin-bottom: 4rem;
+
+  h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-subtitle {
+    color: $uo-yellow;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-bio {
+    color: rgba(255,255,255,0.85);
+    font-size: 1.05rem;
+    max-width: 600px;
+    line-height: 1.9;
+  }
+}
+
+/*-- Cards --*/
+.project-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 1.8rem;
+  margin-bottom: 1.5rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  border-left: 4px solid $uo-yellow;
+
+  &:hover {
+    box-shadow: 0 4px 20px rgba(21,71,51,0.12);
+    transform: translateY(-2px);
+  }
+
+  .card-title {
+    font-family: 'Playfair Display', serif;
+    color: $uo-green;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-tag {
+    display: inline-block;
+    background: rgba(254,225,35,0.2);
+    color: $uo-green;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.2rem 0.7rem;
+    border-radius: 20px;
+    margin-right: 0.4rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid rgba(21,71,51,0.15);
+  }
+
+  .card-status {
+    font-size: 0.8rem;
+    color: #888;
+    font-style: italic;
+  }
+}
+
+/*-- Research page --*/
+.research-item {
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+
+  &:last-child { border-bottom: none; }
+
+  .paper-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    color: $uo-green;
+    margin-bottom: 0.3rem;
+  }
+
+  .paper-authors {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .paper-venue {
+    color: #888;
+    font-size: 0.85rem;
+    font-style: italic;
+  }
+
+  .paper-abstract {
+    margin-top: 0.8rem;
+    color: #333;
+    font-size: 0.95rem;
+  }
+}
+
+/*-- CV page --*/
+.cv-section {
+  margin-bottom: 3rem;
+
+  .cv-item {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+
+    .cv-year {
+      min-width: 100px;
+      color: $uo-green;
+      font-weight: 500;
+      font-size: 0.9rem;
+      padding-top: 0.1rem;
+    }
+
+    .cv-content {
+      flex: 1;
+
+      .cv-role {
+        font-weight: 500;
+        color: #1a1a1a;
+        margin-bottom: 0.1rem;
+      }
+
+      .cv-org {
+        color: #555;
+        font-size: 0.9rem;
+      }
+
+      .cv-desc {
+        color: #777;
+        font-size: 0.88rem;
+        margin-top: 0.3rem;
+      }
+    }
+  }
+}
+
+/*-- Buttons --*/
+.btn-uo {
+  background-color: $uo-green;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+  margin-right: 0.8rem;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: $uo-green-light;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.btn-uo-outline {
+  background-color: transparent;
+  color: $uo-green;
+  border: 2px solid $uo-green;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: $uo-green;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/*-- Page content container --*/
+.page-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/*-- Highlight box --*/
+.highlight-box {
+  background: rgba(254,225,35,0.08);
+  border-left: 4px solid $uo-yellow;
+  padding: 1.2rem 1.5rem;
+  border-radius: 0 6px 6px 0;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  color: #333;
+}

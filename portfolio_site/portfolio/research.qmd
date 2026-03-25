@@ -1,0 +1,81 @@
+---
+title: "Research"
+---
+
+::: {.page-content}
+
+## Research
+
+::: {.section-divider}
+:::
+
+My research sits at the intersection of operations management, business analytics, and applied economics. I use high-frequency operational data and causal inference methods to study how disruptions propagate through complex systems — from pharmaceutical manufacturing lines to college football programs.
+
+---
+
+### Working Papers
+
+::: {.research-item}
+::: {.paper-title}
+Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing
+:::
+::: {.paper-authors}
+Christopher Antwi
+:::
+::: {.paper-venue}
+Working Paper · University of Oregon · 2025
+:::
+::: {.paper-abstract}
+[Add abstract here. Describe the research question, methodology, and key findings.]
+:::
+
+<a href="https://github.com/Christopher-Antwi/Interruption-Management-Analysis" class="btn-uo-outline" style="margin-top:0.8rem; font-size:0.85rem; padding:0.4rem 1rem;">GitHub</a>
+:::
+
+::: {.research-item}
+::: {.paper-title}
+The Causal Effects of NIL Collectives on Play-Calling Behavior in College Football
+:::
+::: {.paper-authors}
+Christopher Antwi
+:::
+::: {.paper-venue}
+Working Paper · University of Oregon · 2025
+:::
+::: {.paper-abstract}
+[Add abstract here.]
+:::
+:::
+
+---
+
+### Publications
+
+::: {.research-item}
+::: {.paper-title}
+[Publication title]
+:::
+::: {.paper-authors}
+[Authors]
+:::
+::: {.paper-venue}
+[Journal/Conference · Year]
+:::
+:::
+
+---
+
+### Conference Presentations
+
+- [Conference name, Year] — "[Paper title]"
+- [Conference name, Year] — "[Paper title]"
+
+---
+
+### Data
+
+::: {.highlight-box}
+Data and replication materials for working papers are available upon request. Code is hosted on GitHub.
+:::
+
+:::

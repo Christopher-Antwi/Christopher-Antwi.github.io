@@ -1,0 +1,91 @@
+---
+title: "Working Projects"
+---
+
+::: {.page-content}
+
+## Working Projects
+
+::: {.section-divider}
+:::
+
+Active research projects and analytical work in progress. These represent ongoing empirical investigations, data pipelines, and analytical tools being developed as part of my dissertation research.
+
+---
+
+::: {.project-card}
+::: {.card-title}
+Interruption Management in Continuous Pharmaceutical Manufacturing
+:::
+
+::: {}
+[span class="card-tag"]{Pharma Operations}[/span]
+[span class="card-tag"]{Time Series}[/span]
+[span class="card-tag"]{Causal Inference}[/span]
+[span class="card-tag"]{R}[/span]
+:::
+
+Empirical analysis of exogenous interruptions in a CDC-50 continuous direct compression line using ~300M data points from a 120-hour production run. Models the cascading effects of upstream feeding interruptions on downstream productivity and tablet quality metrics using OLS and logistic regression with date fixed effects.
+
+**Status:** Analysis complete — paper in drafting stage
+
+**Key tools:** R · `tidyverse` · `lmtest` · `sandwich` · `gt` · Quarto · Shiny
+
+<a href="https://github.com/Christopher-Antwi/Interruption-Management-Analysis" class="btn-uo">GitHub Repo</a>
+:::
+
+---
+
+::: {.project-card}
+::: {.card-title}
+NIL Collective Effects on Play-Calling Behavior in College Football
+:::
+
+::: {}
+[span class="card-tag"]{Sports Economics}[/span]
+[span class="card-tag"]{Panel Data}[/span]
+[span class="card-tag"]{Two-Way FE}[/span]
+[span class="card-tag"]{R}[/span]
+:::
+
+Panel study spanning 2014–2025 examining how NIL collective presence causally affects offensive and defensive play-calling behavior across FBS programs. Uses `cfbfastR` play-by-play data (~2.4M rows) with a two-way fixed effects design and 2021 NIL cutoff.
+
+**Status:** Data construction complete — analysis ongoing
+
+**Key tools:** R · `cfbfastR` · `fixest` · Python (ESPN API scraping)
+
+::: {.card-status}
+GitHub repo coming soon
+:::
+:::
+
+---
+
+::: {.project-card}
+::: {.card-title}
+Discrete Event Simulation Digital Twin — CDC-50 Process
+:::
+
+::: {}
+[span class="card-tag"]{Simulation}[/span]
+[span class="card-tag"]{DES}[/span]
+[span class="card-tag"]{R}[/span]
+[span class="card-tag"]{Three.js}[/span]
+:::
+
+Physics-based discrete event simulation of the CDC-50 continuous manufacturing line parameterized from empirical interruption distributions (Weibull/exponential MTTBF/MTTR). Targets throughput simulation, starvation/blocking cascade analysis, and OEE estimation. Companion to the interruption management paper.
+
+**Status:** Planning stage — building on `simmer` package
+
+::: {.card-status}
+In development
+:::
+:::
+
+---
+
+::: {.highlight-box}
+All projects are conducted in compliance with data sharing agreements. Raw data is not publicly available. Code, methodology, and summary outputs are shared via GitHub.
+:::
+
+:::

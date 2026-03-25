@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Christopher Antwi"
+  favicon: images/favicon.ico
+  navbar:
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Working Projects"
+        href: projects.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: github
+        href: https://github.com/Christopher-Antwi
+        aria-label: GitHub
+  page-footer:
+    center: |
+      © 2025 Christopher Antwi · University of Oregon
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    embed-resources: false
